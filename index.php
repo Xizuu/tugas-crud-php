@@ -77,7 +77,7 @@ include 'koneksi.php';
                     <td>{$row['keliling']}</td>
                     <td>
                         <a href='?edit={$row['id']}'>Edit</a> | 
-                        <a href='?hapus={$row['id']}' onclick='return confirm(\"Yakin ingin menghapus data ini?\")'>Hapus</a>
+                        <a href='crud.php?hapus={$row['id']}' onclick='return confirm(\"Yakin ingin menghapus data ini?\")'>Hapus</a>
                     </td>
                 </tr>
                 ";
